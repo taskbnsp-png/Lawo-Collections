@@ -1,0 +1,8 @@
+/* Konfigurasi Font Kustom */
+body { font-family: 'Poppins', sans-serif; }
+h1, h2, h3, .font-display { font-family: 'Playfair Display', serif; }
+/* Skema Warna Emas dan Putih */
+.bg-gold { background-color: #D4AF37; }
+.text-gold { color: #D4AF37; }
+.border-gold { border-color: #D4AF37; }
+.hover\:bg-gold-dark:hover { background-color: #B89B2E; }

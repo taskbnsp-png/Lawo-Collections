@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Meta SEO untuk Lawo Collection -->
+    <title>Lawo Collection: Tas Songket Riau Elegan & Fungsional</title>
+    <meta name="description" content="Temukan koleksi tas jinjing (tote bag) eksklusif dari Lawo Collection, dibuat dari kain songket Riau asli. Setiap produk adalah karya seni fungsional yang memadukan tradisi dan gaya modern. Beli sekarang!">
+    <meta name="keywords" content="Lawo Collection, Tas Songket, Songket Riau, Aksesori Fashion, Tote Bag Etnik, Kerajinan Tangan Riau, Produk Lokal">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome untuk Ikon Media Sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet kustom -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Script kustom -->
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Navigasi -->
+    <header class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-display text-gold">Lawo Collection</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#tentang" class="hover:text-gold transition duration-300">Tentang Kami</a>
+                <a href="#produk" class="hover:text-gold transition duration-300">Produk</a>
+                <a href="#artikel" class="hover:text-gold transition duration-300">Artikel</a>
+                <a href="#kontak" class="hover:text-gold transition duration-300">Kontak</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-800 focus:outline-none" aria-label="Buka menu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#tentang" class="block px-6 py-2 text-sm hover:bg-gold hover:text-white">Tentang Kami</a>
+            <a href="#produk" class="block px-6 py-2 text-sm hover:bg-gold hover:text-white">Produk</a>
+            <a href="#artikel" class="block px-6 py-2 text-sm hover:bg-gold hover:text-white">Artikel</a>
+            <a href="#kontak" class="block px-6 py-2 text-sm hover:bg-gold hover:text-white">Kontak</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="beranda" class="relative h-[60vh] md:h-[80vh] flex items-center justify-center text-white bg-cover bg-center" style="background-image: url('https://placehold.co/1600x900/000000/FFFFFF?text=Pola+Songket+Riau');">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+            <div class="relative z-10 text-center px-4">
+                <h1 class="text-4xl md:text-6xl font-display mb-4 leading-tight">Keanggunan Songket Riau <br>dalam Genggaman Anda</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto">Tas jinjing buatan tangan yang memadukan warisan budaya dengan sentuhan gaya modern.</p>
+                <a href="#produk" class="bg-gold text-white font-bold py-3 px-8 rounded-full hover:bg-gold-dark transition duration-300">Lihat Koleksi</a>
+            </div>
+        </section>
+
+        <!-- Tentang Kami Section -->
+        <section id="tentang" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="md:flex md:items-center md:space-x-12">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <img src="https://placehold.co/600x400/F0EAD6/333333?text=Pengrajin+Lawo+Collection" alt="Pengrajin Lawo Collection sedang membuat tas songket" class="rounded-lg shadow-xl w-full">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-display text-gray-900 mb-4">Cerita Kami</h2>
+                        <span class="w-24 h-1 bg-gold block mb-6"></span>
+                        <p class="text-gray-600 leading-relaxed">
+                            Lawo Collection lahir dari kecintaan kami terhadap keindahan kain songket motif Riau. Dengan tangan-tangan terampil, kami mengubah kain tradisional ini menjadi aksesori fashion yang elegan dan fungsional. Setiap jahitan membawa kisah dan semangat dari tanah Melayu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Produk Section -->
+        <section id="produk" class="py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-display text-gray-900 mb-4">Koleksi Pilihan Kami</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-12">Setiap tas memiliki karakter uniknya, dirancang untuk melengkapi setiap momen berharga Anda.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Produk 1: Kacak Jinjing -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/400x400/D4AF37/FFFFFF?text=Kacak+Jinjing" alt="Gambar Tas Songket Riau - Kacak Jinjing" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="text-2xl font-bold font-display mb-2 uppercase tracking-wide">Kacak Jinjing</h3>
+                            <p class="text-lg text-gold font-semibold mb-4">Rp 185.000</p>
+                            <a href="https://wa.me/6281374889263?text=Halo,%20saya%20tertarik%20dengan%20produk%20Kacak%20Jinjing." target="_blank" class="bg-gray-800 text-white font-bold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                    <!-- Produk 2: Si Godang -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/400x400/D4AF37/FFFFFF?text=Si+Godang" alt="Gambar Tas Songket Riau - Si Godang" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="text-2xl font-bold font-display mb-2 uppercase tracking-wide">Si Godang</h3>
+                            <p class="text-lg text-gold font-semibold mb-4">Rp 150.000</p>
+                            <a href="https://wa.me/6281374889263?text=Halo,%20saya%20tertarik%20dengan%20produk%20Si%20Godang." target="_blank" class="bg-gray-800 text-white font-bold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                    <!-- Produk 3: Si Kecik -->
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <img src="https://placehold.co/400x400/D4AF37/FFFFFF?text=Si+Kecik" alt="Gambar Tas Songket Riau - Si Kecik" class="w-full h-64 object-cover">
+                        <div class="p-6 text-center">
+                            <h3 class="text-2xl font-bold font-display mb-2 uppercase tracking-wide">Si Kecik</h3>
+                            <p class="text-lg text-gold font-semibold mb-4">Rp 130.000</p>
+                            <a href="https://wa.me/6281374889263?text=Halo,%20saya%20tertarik%20dengan%20produk%20Si%20Kecik." target="_blank" class="bg-gray-800 text-white font-bold py-2 px-6 rounded-full hover:bg-gray-700 transition duration-300">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pelanggan Section -->
+        <section id="pelanggan" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-display text-gray-900 mb-12">Dipercaya oleh Berbagai Kalangan</h2>
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <!-- Ibu Rumah Tangga -->
+                    <div class="text-left">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-700">Ibu Rumah Tangga</span>
+                            <span class="text-sm font-medium text-gray-700">40%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-gold h-2.5 rounded-full" style="width: 40%"></div>
+                        </div>
+                    </div>
+                     <!-- Mahasiswa -->
+                    <div class="text-left">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-700">Mahasiswa</span>
+                            <span class="text-sm font-medium text-gray-700">34%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-gold h-2.5 rounded-full" style="width: 34%"></div>
+                        </div>
+                    </div>
+                    <!-- Dosen -->
+                    <div class="text-left">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-700">Dosen</span>
+                            <span class="text-sm font-medium text-gray-700">16%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-gold h-2.5 rounded-full" style="width: 16%"></div>
+                        </div>
+                    </div>
+                    <!-- Pegawai -->
+                    <div class="text-left">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-700">Pegawai</span>
+                            <span class="text-sm font-medium text-gray-700">10%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-gold h-2.5 rounded-full" style="width: 10%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Artikel SEO Section -->
+        <section id="artikel" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-display text-gray-900 mb-4">Wawasan dari Dunia Lawo</h2>
+                    <p class="text-gray-600 max-w-2xl mx-auto">Tips, trik, dan inspirasi seputar songket dan fashion dari kami untuk Anda.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    <!-- Artikel 1 -->
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://placehold.co/600x400/F0EAD6/333333?text=Merawat+Tas+Songket" alt="Membersihkan tas songket dengan sikat lembut" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <!-- Judul H2 dengan Kata Kunci -->
+                            <h2 class="text-2xl font-bold font-display mb-3 hover:text-gold"><a href="#artikel">5 Cara Merawat Tas Songket Riau Agar Tetap Awet</a></h2>
+                            <p class="text-gray-600 mb-4">Tas songket Riau adalah investasi fashion yang berharga. Pelajari cara mudah merawatnya agar keindahan motif dan warnanya tetap terjaga selama bertahun-tahun.</p>
+                            <img src="https://placehold.co/600x400/EAEAEA/333333?text=Menyimpan+Tas" alt="Menyimpan tas songket di dalam dust bag" class="w-full h-auto rounded-md my-4">
+                            <!-- Internal Link -->
+                            <a href="#produk" class="font-semibold text-gold hover:underline">Lihat produk tas songket kami →</a>
+                        </div>
+                    </article>
+                    <!-- Artikel 2 -->
+                    <article class="bg-white rounded-lg shadow-lg overflow-hidden">
+                        <img src="https://placehold.co/600x400/F0EAD6/333333?text=Gaya+Modern+Songket" alt="Model menggunakan tas songket dengan pakaian kasual" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                             <!-- Judul H2 dengan Kata Kunci -->
+                            <h2 class="text-2xl font-bold font-display mb-3 hover:text-gold"><a href="#artikel">Inspirasi Gaya: Memadukan Aksesori Fashion Etnik</a></h2>
+                            <p class="text-gray-600 mb-4">Aksesori fashion etnik seperti tas songket bisa menjadi statement piece yang menawan. Temukan inspirasi padu padan untuk tampilan kasual hingga formal.</p>
+                            <img src="https://placehold.co/600x400/EAEAEA/333333?text=Detail+Tas+Lawo" alt="Detail tas songket Lawo Collection" class="w-full h-auto rounded-md my-4">
+                             <!-- Internal Link -->
+                            <a href="#tentang" class="font-semibold text-gold hover:underline">Pelajari filosofi kami →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Kontak -->
+    <footer id="kontak" class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-display mb-4">Hubungi Kami</h2>
+            <p class="text-gray-400 mb-8 max-w-xl mx-auto">Kami senang mendengar dari Anda. Ikuti kami di media sosial atau kirimkan pesan langsung.</p>
+            <div class="flex flex-col items-center space-y-4 mb-10">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/6281374889263" target="_blank" class="inline-flex items-center space-x-4 text-lg text-gray-300 hover:text-gold transition-colors duration-300">
+                    <i class="fab fa-whatsapp text-2xl w-8 text-center"></i>
+                    <span>081374889263</span>
+                </a>
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/Lawo.Collections" target="_blank" class="inline-flex items-center space-x-4 text-lg text-gray-300 hover:text-gold transition-colors duration-300">
+                    <i class="fab fa-instagram text-2xl w-8 text-center"></i>
+                    <span>Lawo.Collections</span>
+                </a>
+                <!-- Gmail -->
+                <a href="mailto:lawokreasilokal@gmail.com" class="inline-flex items-center space-x-4 text-lg text-gray-300 hover:text-gold transition-colors duration-300">
+                    <i class="fas fa-envelope text-2xl w-8 text-center"></i>
+                    <span>lawokreasilokal@gmail.com</span>
+                </a>
+                <!-- TikTok -->
+                <a href="https://www.tiktok.com/@Lawo.Collections" target="_blank" class="inline-flex items-center space-x-4 text-lg text-gray-300 hover:text-gold transition-colors duration-300">
+                    <i class="fab fa-tiktok text-2xl w-8 text-center"></i>
+                    <span>Lawo.Collections</span>
+                </a>
+            </div>
+            <div class="border-t border-gray-700 pt-6">
+                <p class="text-gray-500 text-sm">&copy; 2024 Lawo Collection. Semua Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
